@@ -27,5 +27,5 @@ Added methods
 
 * ```has($key)``` verify the existence of the cache by key
 * ```flush()``` delete all entries from the cache
-* ```setExpire()``` update ttl value in seconds
+* ```setExpire($ttl)``` update ttl value in seconds
 * ```getExpire()``` return current ttl in seconds
